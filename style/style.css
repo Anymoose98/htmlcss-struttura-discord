@@ -4,6 +4,7 @@
     margin: 0;
 }
 
+/* header */
 header{
     height: 50px;
     background-color: azure;
@@ -48,3 +49,20 @@ header{
 }
 
 
+/* main */
+
+/* contenitore blu con dentro un contenitore rosa  */
+
+.contenitore-blu-main{
+    height: 300px;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+}
+
+.contenitore-rosa-main{
+    width: 70%;
+    margin: auto;
+    height: 250px;
+    background-color: palevioletred;
+}
