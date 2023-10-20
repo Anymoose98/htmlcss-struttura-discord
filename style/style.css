@@ -8,4 +8,43 @@ header{
     height: 50px;
     background-color: azure;
     border: 1px solid black;
+    width: 100%;
 }
+
+
+
+.riga-header{
+    width: 70%;
+    margin: 8px auto;
+    height: 35px;
+    background-color: rgb(255, 208, 1);
+    display: flex;
+    
+    
+}
+
+.colonne-header{
+    height: 100%;
+    border: 2px black dotted;
+    padding: auto;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+
+}
+.piccole-25{
+    width: 25%;
+    
+}
+
+.grande-50{
+    justify-content: center;
+    width: 50%;
+    
+}
+
+.scritta-destra{
+    justify-content: right;
+}
+
+
