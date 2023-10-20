@@ -8,12 +8,13 @@
 header{
     height: 50px;
     background-color: azure;
-    border: 1px solid black;
     width: 100%;
 }
 
 
-
+.border{
+    border: 1px dotted black;
+}
 .riga-header{
     width: 70%;
     margin: 8px auto;
@@ -26,7 +27,6 @@ header{
 
 .colonne-header{
     height: 100%;
-    border: 2px black dotted;
     padding: auto;
     display: flex;
     align-items: center;
@@ -68,8 +68,10 @@ header{
 }
 
 .colonna{
+    
     height: 250px;
     margin: auto;
+
 }
 
 .rosa-main{
@@ -117,4 +119,33 @@ header{
     width: 60%;
     margin: auto;
     background-color: green;
+}
+
+
+/* sfondo nero + 5 colonne  */
+.sfondo-nero{
+    background-color: black;
+}
+
+.colonna-grande-footer{
+    width: calc(100% / 4);
+    background-color: red;
+}
+
+.colonna-footer{
+    width: calc(75% / 4);
+    background-color: rgb(7, 226, 226);
+}
+
+.border-bianco{
+    border: 1px dotted white;
+}
+
+.margin-bottom-grigio{
+    margin-bottom: 3px grey;
+}
+
+.margin-top{
+    margin-top: 10px;
+
 }
