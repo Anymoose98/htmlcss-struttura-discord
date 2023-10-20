@@ -104,3 +104,17 @@ header{
 .sfondo-grigio{
     background-color: rgba(185, 185, 185, 0.603);
 }
+
+/*format 4 - 1 colonna + sfondo*/
+
+.contenitore-grande{
+    height: 600px;
+
+}
+
+.colonna-grande{
+    height: 500px;
+    width: 60%;
+    margin: auto;
+    background-color: green;
+}
