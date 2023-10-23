@@ -16,7 +16,7 @@ header{
     border: 1px dotted black;
 }
 .riga-header{
-    width: 70%;
+    max-width: 1200px;
     margin: 8px auto;
     height: 35px;
     background-color: rgb(255, 208, 1);
@@ -61,7 +61,7 @@ header{
 }
 
 .riga{
-    width: 100%;
+    max-width: 1200px;
     height: 100%;
     display: flex;
 }
